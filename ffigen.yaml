@@ -1,0 +1,9 @@
+name: FFIBinding
+description: FFI bindings for the native library.
+output: lib/src/ffi_bindings.dart
+
+headers:
+  entry-points:
+    - 'native/hello.h'
+  include-directives:
+    - 'native/hello.h'
